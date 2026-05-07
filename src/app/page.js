@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <div className="relative w-full bg-black text-white overflow-x-hidden">
-      
+      <Loader/>
       <div className="fixed inset-0 z-0">
         <DotGrid
           dotSize={16}

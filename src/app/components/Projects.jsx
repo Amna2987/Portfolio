@@ -43,12 +43,12 @@ export default function Projects() {
         {projects.map((project, idx) => (
           <div
             key={idx}
-            className="relative w-full rounded-2xl overflow-hidden group"
+            className="relative w-full min-h-[300px] sm:min-h-[420px] lg:min-h-[600px] rounded-2xl overflow-hidden group"
           >
             <img
               src={project.img}
               alt={project.title}
-              className="w-full h-[220px] sm:h-[300px] lg:h-[420px] object-cover transition-transform duration-500 group-hover:scale-105"/>
+              className="w-full h-[300px] sm:h-[420px] lg:h-[550px] object-cover transition-transform duration-500 group-hover:scale-105"/>
             <div
               className="absolute bottom-0 w-full bg-black/70 backdrop-blur-md p-3 sm:p-4 lg:p-5 transition-all duration-500">
               <a
