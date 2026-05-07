@@ -7,8 +7,8 @@ import ContactBtn from './ContactBtn'
 
 export default function Hero() {
     return (
-        <div className='h-auto flex flex-col gap-8 bg-[#111111b2] p-10'>
-            <TextType className='lg:text-[50px] text-[32px]'
+        <div className='h-auto flex flex-col gap-8 bg-[#111111b2] p-5 lg:p-10'>
+            <TextType className='lg:text-[50px] text-[32px] !whitespace-normal !inline w-full'
                 text={["Welcome, Good to see you!", "Let's Build some amazing experiences!"]}
                 typingSpeed={75}
                 pauseDuration={1500}
