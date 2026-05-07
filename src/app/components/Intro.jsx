@@ -7,8 +7,7 @@ export default function Intro() {
   return (
     <div className="bg-[#111111] w-full p-5 lg:p-8 rounded-2xl flex flex-col gap-5 justify-center items-center">
       <a href='tel:+923274059035'>
-
-      <Button />
+        <Button />
       </a>
       <div className="h-[200px] w-[180px] sm:h-[260px] sm:w-[230px] lg:h-[320px] lg:w-[280px] rounded-2xl overflow-hidden">
         <img
@@ -25,11 +24,11 @@ export default function Intro() {
         </p>
       </div>
       <a href='tel:+923274059035'>
-      <ContactBtn />
+        <ContactBtn />
       </a>
 
-      <Tooltip/>
-      
+      <Tooltip />
+
     </div>
   )
 }

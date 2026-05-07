@@ -68,6 +68,13 @@ const ScrambledText = ({
       style={style}
     >
       <p>{children}</p>
+      <style>{`
+      .inline-block {
+        display: inline !important;
+        white-space: pre;
+      }
+    `}</style>
+
     </div>
   );
 };
